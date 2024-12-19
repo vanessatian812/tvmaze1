@@ -8,7 +8,6 @@ const STATIC_ASSETS = [
       'index.html',
       'style.css',
       'apiexample.js',
-      'manifest.json',
       'icons/icon512_maskable.png',
       'icons/icon512_rounded.png',
       'icons/android-launchericon-192-192.png'
