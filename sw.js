@@ -1,6 +1,6 @@
 // Define cache names
-const CACHE_NAME = 'my-app-cache-v15';
-const DYNAMIC_CACHE_NAME = 'my-app-dynamic-cache-v15';
+const CACHE_NAME = 'my-app-cache-v70';
+const DYNAMIC_CACHE_NAME = 'my-app-dynamic-cache-v70';
 
 // Files to cache during install
 const STATIC_ASSETS = [
@@ -53,11 +53,14 @@ self.addEventListener('fetch', event => {
       })
       .catch(() => {
         // If network fetch fails, fallback to cache
+        /* if (something == undefined){
           var elemMain = document.getElementById("main");
           var elemP = document.createElement("p");
           elemP.innerHTML = "No internet connection. Please connect to the internet and try again."
           elemMain.appendChild(elemP);
-        return caches.match(event.request);
-      })
-  );
+      }*/
+
+          return caches.match(event.request);
+  })
+);
 });
