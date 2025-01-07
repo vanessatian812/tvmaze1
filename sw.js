@@ -7,10 +7,7 @@ const STATIC_ASSETS = [
       '/',
       'index.html',
       'style.css',
-      'apiexample.js',
-      'icons/icon512_maskable.png',
-      'icons/icon512_rounded.png',
-      'icons/android-launchericon-192-192.png'
+      'apiexample.js'
   // Add other static files you want to cache
 ];
 
